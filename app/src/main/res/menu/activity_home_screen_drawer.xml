@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_icons_home"
+            android:title="HOME" />
+        <item
+            android:id="@+id/nav_photos"
+            android:icon="@drawable/ic_icons_cam"
+            android:title="PHOTOGRAPHY" />
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@drawable/ic_icons_videography"
+            android:title="VIDEOGRAPHY" />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/ic_icons_services"
+            android:title="OUR SERVICES" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_icons_about_me"
+                android:title="ABOUT US" />
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/ic_icons_contact_us"
+                android:title="CONTACT US" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
